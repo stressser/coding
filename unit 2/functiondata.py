@@ -29,3 +29,12 @@ def dollarConverter(dollar):
     print('My '+ str(dollar) + 's is equal 0 to ' + str(pennies) + ' pennies.')
 
 dollarConverter(5)
+
+# Activity 3
+def areaoftriangle (height, length, width):
+print('Length = 20 + width = 15 + height = 23')
+
+
+# Activity 4
+
+

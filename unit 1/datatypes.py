@@ -8,8 +8,8 @@
 1
 0
 # Boolean - vaules that represent true and false 
-true
-false
+True
+False
 0
 1
 

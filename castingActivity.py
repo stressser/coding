@@ -17,4 +17,4 @@ Bonus = '200'
 
 vaule = 'True'
 
-print(True == Vaule) # result should be true
+print(True == ValueError) # result should be true

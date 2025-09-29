@@ -19,6 +19,32 @@ elif (weather == 'rainy'):
 # create a conditional block of code that acts as a password
 # checker. The user should be able to input a password.
 # If it is correct, they should get a message 
-# saying "welcome, you are logged in". Otherwise, they
-# should get a message saying "try again".
+# saying "welcome, you are logged in". 
+# Otherwise, they should get a message saying "try again".
+
+
+
+# Tell me what to do on each down based on yards.
+down = input
+yards = input
+
+if down == 3 and yards == 2:
+    print("run the ball!")
+elif down == 2 and yards < 0:
+    print('')
+elif down == 3 and yards < 0:
+    print('')
+else: # this is the exit; assumes it is 4th down.
+    print("punt")
+
+
+
+age = input('How old is the person? ')
+def permitCheck(age):
+    if age >= 16:
+        print("congrats, you can begin learning to drive.")
+    else:
+        print("Sorry, your not olf enough yet")
+
+permitCheck(16)
 

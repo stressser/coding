@@ -23,5 +23,46 @@ signup()
 
 
 '1. Be able to divide'
+'2. Be able to add'
+'3. Be able to subtract'
+'4. Be able to multiply'
+
+
+
+
+def add():
+    num1 = int(input("please type in number"))
+    num2 = int(input("please type in ANOTHER number"))
+    sum = num1 + num2
+    print('sum = ' + str(sum))
+    bonusNum = input("Would you like to add another number to the sum")
+    if bonusNum == 'y':
+            numX = int(input("please type in number"))
+            sum += numX
+            print(sum)
+add()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

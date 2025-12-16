@@ -12,4 +12,3 @@ def pythonQuiz():
         print('Correct')
     else:
         print('Incorrect')
-   
